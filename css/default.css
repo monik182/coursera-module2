@@ -1,0 +1,99 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 175%;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+h3 {
+  font-size: 125%;
+  margin: 0px;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 2px 15%;
+  float: right;
+  font-variant: small-caps;
+}
+
+section {
+  display: block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  height: auto;
+  background-color: #D3D3D3;
+  box-sizing: border-box;
+}
+
+p {
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 5px 10px 5px 15px; 
+  margin: 0px;
+  clear: both;
+}
+
+#chicken h3 {
+  background-color: #FFA07A;
+}
+
+#beef h3 {
+  background-color: #800000;
+  color: #FFFFFF;
+}
+
+#sushi h3 {
+  background-color: #87CEFA;
+}
+
+/* ------------------Smartphone Display-------------- */
+@media (max-width: 767px) {
+  
+  h1 {
+   padding: 20px 0px 20px 0px;     
+  }
+  
+  section {
+    width:90%;
+    margin: 0% 5% 5% 5%;
+    /*margin-bottom: 20px;*/
+  }
+}
+
+
+/* ---------------------Tablet Display------------- */
+@media (min-width: 768px) and (max-width: 991px){
+
+  h1 {
+  padding: 20px 0px 20px 0px;     
+  }
+  section {
+    float: left;
+    width: 40%;
+    margin-left: 6%;
+  }
+  
+  #sushi {
+    margin-top: 20px;
+    width: 86%;
+  }
+}
+
+
+/* -----------------------Desktop Display----------- */
+@media (min-width: 992px) {
+
+  h1 {
+  padding: 20px 0px 40px 0px;     
+  }
+  
+  section {
+    float: left;
+    margin-left: 50px;
+    width: 28%;
+  }
+}
+
